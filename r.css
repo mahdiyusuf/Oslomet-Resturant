@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "DM-Sans";
+    src: url("DM_Sans/DMSans-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: DM-Sans;
+    background-image: linear-gradient(white, grey);
+    line-height: 1.1em;
+    margin: 0px;
+}
+h1 h2 h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:'Times New Roman', Times, serif ;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+}
+.matretter{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.velkommen {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    display: inline-flex;
+    padding: 40px 20px;
+    
+}
+.velkommen .left{
+    display: inline-block;
+    line-height: 1.5em;
+    margin: auto;
+}
+.velkommen p{
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 60ch;
+}
+.velkommen h3{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.matretter a{
+    color: black;
+    margin: 90px;
+    text-decoration: none;
+}
+img{
+    margin-top: -10px;
+    width: 35%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 3px 7px 10px 3px rgb(70, 69, 69);
+
+}
+.kontakt{
+    justify-content: left;
+    font-size: 12px;
+    padding-left: 40px;
+}
+.kontakt p{
+    font-size:15px;
+}
+.kontakt h3{
+    font-size: 20px;
+}
+.meny{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.meny p{
+    margin: 30px;
+}
+.hovedrettbody{
+    background-image: linear-gradient(rgb(0, 0, 0), grey);
+}
+.rett1{
+    margin: 50px;
+}
+.rett2{
+    margin: 50px;
+}
+.rett3{
+    margin: 50px;
+}
